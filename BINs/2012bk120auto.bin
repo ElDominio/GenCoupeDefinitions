@@ -1,0 +1,20 @@
+<!-- Written 04/02/2019 13:46:18 -->
+<XDFFORMAT version="1.60">
+  <XDFHEADER>
+    <flags>0x1</flags>
+    <description></description>
+    <BASEOFFSET offset="0" subtract="0" />
+    <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
+  </XDFHEADER>
+  <XDFCONSTANT uniqueid="0x2DB1">
+    <title>Injector Flowrate</title>
+    <EMBEDDEDDATA mmedaddress="0x4A312" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+    <decimalpl>3</decimalpl>
+    <datatype>0</datatype>
+    <unittype>0</unittype>
+    <DALINK index="0" />
+    <MATH equation="x*0.000012">
+      <VAR id="x" />
+    </MATH>
+  </XDFCONSTANT>
+</XDFFORMAT>
